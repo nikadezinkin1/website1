@@ -1,0 +1,16 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    overflow: hidden;
+    background-color: #3d57ff
+}
+
+.btn {
+    height: 30px;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #ff0000
+}

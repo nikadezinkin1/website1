@@ -1,0 +1,27 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img2.10bestmedia.com/Images/Photos/379865/Alaska---Forget-me-not_54_990x660.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    filter: blur(30px);
+    position: absolute;
+    z-index: -1;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(255,255,255);
+}
