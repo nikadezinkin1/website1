@@ -10,9 +10,10 @@ body {
 }
 
 .bg {
+    background-image: url('https://img2.10bestmedia.com/Images/Photos/379865/Alaska---Forget-me-not_54_990x660.jpg');
+    no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://img2.10bestmedia.com/Images/Photos/379865/Alaska---Forget-me-not_54_990x660.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
