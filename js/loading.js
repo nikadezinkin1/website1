@@ -7,7 +7,7 @@ let int = setInterval(loading, 30)
 
 
 
-function loading(){
+function blurring(){
     load++
     loadText.innerText = `${load}%`
     bg.style.filter = `blur(${30 - 0.3*load}px)`
