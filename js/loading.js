@@ -3,7 +3,7 @@ const bg = document.querySelector('.bg')
 
 let load = 0
 
-let int= setInterval(loading, 30)
+let int = setInterval(loading, 30)
 
 
 
