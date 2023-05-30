@@ -1,0 +1,41 @@
+
+body{
+    background-color: #111111;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    background-color: #1d1d1d;
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+.home {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
